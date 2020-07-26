@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{318D10D9-F485-4051-9665-8E12E5B9F51B}|Default">
   <MonoDevelop.Ide.ItemProperties.cobaef PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="cobaef/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cobaef/Models/Contoh05Context.cs">
     <Files>
+      <File FileName="cobaef/Models/Contoh02Context.cs" Line="1" Column="1" IsPinned="True" />
       <File FileName="cobaef/Models/Contoh03Context.cs" Line="49" Column="63" />
       <File FileName="notes.txt" Line="33" Column="1" />
       <File FileName="cobaef/Contoh03ManyToMany.cs" Line="50" Column="22" />
-      <File FileName="cobaef/Models/Contoh03Context (copy).cs" Line="36" Column="9" />
+      <File FileName="cobaef/Models/Contoh03Context (copy).cs" Line="36" Column="53" />
       <File FileName="cobaef/Contoh01SatuEntity.cs" Line="1" Column="1" />
-      <File FileName="cobaef/Models/Contoh02Context.cs" Line="1" Column="1" />
       <File FileName="cobaef/Models/Contoh01Context.cs" Line="1" Column="1" />
-      <File FileName="cobaef/Contoh04OneToOne.cs" Line="31" Column="6" />
-      <File FileName="cobaef/Program.cs" Line="14" Column="41" />
+      <File FileName="cobaef/Contoh04OneToOne.cs" Line="33" Column="1" />
+      <File FileName="cobaef/Program.cs" Line="16" Column="37" />
+      <File FileName="cobaef/Models/Contoh05Context.cs" Line="206" Column="23" />
+      <File FileName="cobaef/Contoh04OneToOne (copy).cs" Line="18" Column="40" />
+      <File FileName="cobaef/Contoh02OneToMany.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,8 +21,9 @@
           <Node name="netcoreef" expanded="True">
             <Node name="cobaef" expanded="True">
               <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Contoh05Context.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -29,7 +33,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/suhut/Development/netcore/netcoreef/cobaef/Contoh04OneToOne.cs" relfile="cobaef/Contoh04OneToOne.cs" line="33" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
