@@ -9,8 +9,9 @@ namespace cobaef
         static void Main(string[] args)
         {
 
-            //SatuEntity.coba();
-
+            //Contoh01SatuEntity.coba();
+            //Contoh02OneToMany.coba();
+            Contoh03ManyToMany.coba();
             Console.WriteLine("Hello World!");
         }
     }

@@ -2,7 +2,7 @@
 
 namespace cobaef.Migrations
 {
-    public partial class createdb : Migration
+    public partial class contoh01_createdb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

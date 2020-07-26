@@ -10,11 +10,14 @@ entity framework
 ------------------
 dotnet tool install --global dotnet-ef --version 3.1.6
 dotnet tool update --global dotnet-ef --version 3.1.6
-dotnet ef migrations add name1
-dotnet ef database update
-dotnet ef migrations list
-dotnet ef migrations remove
+dotnet ef migrations add createdb --context [mmmm]
+dotnet ef database update --context [mmmm]
+dotnet ef migrations list --context [mmmm]
+dotnet ef migrations remove --context [mmmm]
 
+REMOVE ALL TABLE
+dotnet ef database update 0
+dotnet ef migrations remove
 
 docker
 -------------------

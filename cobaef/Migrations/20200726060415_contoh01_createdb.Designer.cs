@@ -8,9 +8,9 @@ using cobaef.Models;
 
 namespace cobaef.Migrations
 {
-    [DbContext(typeof(MyDbContext))]
-    [Migration("20200725090438_createdb")]
-    partial class createdb
+    [DbContext(typeof(Contoh01Context))]
+    [Migration("20200726060415_contoh01_createdb")]
+    partial class contoh01_createdb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

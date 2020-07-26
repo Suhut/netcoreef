@@ -4,17 +4,16 @@ using Microsoft.EntityFrameworkCore;
 
 namespace cobaef
 {
-    public static class SatuEntity
+    public static class Contoh01SatuEntity
     {
         public static void coba()
-        {
-            var db = new MyDbContext();
+        { 
 
             //-------------------------
             //SATU TABLE SAJA
             //-------------------------
             //INSERT
-            using (var context = new MyDbContext())
+            using (var context = new Contoh01Context())
             {
                 var std = new Customer()
                 {
@@ -27,7 +26,7 @@ namespace cobaef
             }
 
             //UPDATE
-            using (var context = new MyDbContext())
+            using (var context = new Contoh01Context())
             {
                 var std = new Customer()
                 {
@@ -40,7 +39,7 @@ namespace cobaef
             }
 
             // DELETE
-            using (var context = new MyDbContext())
+            using (var context = new Contoh01Context())
             {
                 var std = new Customer()
                 {
@@ -52,7 +51,7 @@ namespace cobaef
             }
 
             //DELETE DENGAN CARA LAIN
-            using (var context = new MyDbContext())
+            using (var context = new Contoh01Context())
             {
                 var std = new Customer()
                 {

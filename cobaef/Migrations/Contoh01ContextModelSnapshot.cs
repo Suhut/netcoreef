@@ -7,8 +7,8 @@ using cobaef.Models;
 
 namespace cobaef.Migrations
 {
-    [DbContext(typeof(MyDbContext))]
-    partial class MyDbContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(Contoh01Context))]
+    partial class Contoh01ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

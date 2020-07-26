@@ -4977,7 +4977,7 @@
       "outputPath": "/Users/suhut/Development/netcore/netcoreef/cobaef/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/suhut/.config/NuGet/NuGet.Config"
+        "/Users/suhut/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
