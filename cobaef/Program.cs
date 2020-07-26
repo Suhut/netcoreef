@@ -11,7 +11,8 @@ namespace cobaef
 
             //Contoh01SatuEntity.coba();
             //Contoh02OneToMany.coba();
-            Contoh03ManyToMany.coba();
+            //Contoh03ManyToMany.coba();
+            Contoh04OneToOne.coba();
             Console.WriteLine("Hello World!");
         }
     }
