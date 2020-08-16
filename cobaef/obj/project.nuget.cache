@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j3S9N+oTgCxeGpY6J1rwddVRXfGapNADjuTTK/O2TTV8rmwPQfk6h/NahDsW9l5GORjyxHAHwcu6Uxt/dthk5w==",
+  "dgSpecHash": "VH4m93n9kRvTf2ih13JtuqXqXf8/HWcK1ZaeV0zzwzTfmfnIkQIPOJ4NLynKhhlA15Tx4q6p6jJnu+q7mjxPGg==",
   "success": true,
   "projectFilePath": "/Users/suhut/Development/netcore/netcoreef/cobaef/cobaef.csproj",
   "expectedPackageFiles": [
@@ -23,7 +23,10 @@
     "/Users/suhut/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.6/microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
     "/Users/suhut/.nuget/packages/microsoft.extensions.logging/3.1.6/microsoft.extensions.logging.3.1.6.nupkg.sha512",
     "/Users/suhut/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.6/microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "/Users/suhut/.nuget/packages/microsoft.extensions.logging.configuration/3.1.6/microsoft.extensions.logging.configuration.3.1.6.nupkg.sha512",
+    "/Users/suhut/.nuget/packages/microsoft.extensions.logging.console/3.1.6/microsoft.extensions.logging.console.3.1.6.nupkg.sha512",
     "/Users/suhut/.nuget/packages/microsoft.extensions.options/3.1.6/microsoft.extensions.options.3.1.6.nupkg.sha512",
+    "/Users/suhut/.nuget/packages/microsoft.extensions.options.configurationextensions/3.1.6/microsoft.extensions.options.configurationextensions.3.1.6.nupkg.sha512",
     "/Users/suhut/.nuget/packages/microsoft.extensions.primitives/3.1.6/microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "/Users/suhut/.nuget/packages/microsoft.identity.client/3.0.8/microsoft.identity.client.3.0.8.nupkg.sha512",
     "/Users/suhut/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
