@@ -29,7 +29,7 @@ namespace cobaef.Migrations.Contoh06
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ItemCode = table.Column<string>(nullable: true),
                     Qty = table.Column<int>(nullable: true),
-                    InvoiceId = table.Column<int>(nullable: true)
+                    InvoiceId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {

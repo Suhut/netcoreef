@@ -10,7 +10,7 @@ using cobaef.Models;
 namespace cobaef.Migrations.Contoh06
 {
     [DbContext(typeof(Contoh06Context))]
-    [Migration("20200816141534_Contoh06_createdb")]
+    [Migration("20200817020946_Contoh06_createdb")]
     partial class Contoh06_createdb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,7 +46,7 @@ namespace cobaef.Migrations.Contoh06
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("InvoiceId")
+                    b.Property<int>("InvoiceId")
                         .HasColumnType("int");
 
                     b.Property<string>("ItemCode")
@@ -67,7 +67,8 @@ namespace cobaef.Migrations.Contoh06
                     b.HasOne("cobaef.Models.Invoice", "Invoice")
                         .WithMany("Items")
                         .HasForeignKey("InvoiceId")
-                        .OnDelete(DeleteBehavior.Cascade);
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

@@ -24,6 +24,8 @@ namespace cobaef.Models
         public int Id { get; set; }
         public string ItemCode { get; set; }
         public int? Qty { get; set; }
+
+        public int InvoiceId { get; set; } //ini sebenarnya bisa terbentuk otomatis; ini di buat karena hanya untuk memenuhi kebutuhan untuk test join saja
         public Invoice Invoice { get; set; }
     }
 
